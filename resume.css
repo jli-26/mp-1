@@ -127,7 +127,7 @@ input{
 
 #buttons {
     display: flex;
-    justify-content: center;  /* Centers buttons horizontally */
+    justify-content: center; 
     margin: 2%;
 }
 
