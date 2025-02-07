@@ -7,6 +7,42 @@
         <title> Project Page| mp-1</title> 
     </head>
     <body>
-        
+        <header>
+            <h1>
+                Jenny Li
+            </h1>
+            <p>
+                My online resume
+            </p>
+        </header>  
+        <div id="container">
+            <nav>
+                <ul>
+                    <li><a href = "certifications.html">Certifications</a></li>
+                    <li><a href = "education.html">Education</a></li>
+                    <li><a href = "index.html">Home</a> </li>
+                    <li><a href = "projects.html">Projects</a></li>
+                    <li><a href = "references.html">References</a></li>
+                    <li><a href = "work.html">Work</a></li>
+                </ul>
+            </nav>
+            <main>
+                <h2>Project Page</h2>
+                <br>
+                <label for ="first">First Number: </label><input id="first">
+                <br>
+                <label for ="second">Second Number: </label><input id="second">
+                <button id="add" onclick="myAdd()">+</button>
+                <button id = "sub" onclick="mySub()">-</button>
+                <button id = "div" onclick="myDiv()">/</button>
+                <button id = "mul" onclick = "myMul()" >*</button>
+                <button id = "power" onclick = "myPow()">**</button>
+                <h3 id="output"></h3>
+            </main>
+        </div>
+        <footer>
+            <p>All rights reserved: <a href ="">Credits</a>&#169;</p>
+        </footer>
+        <script src="calc.js"></script>
     </body>
 </html>
