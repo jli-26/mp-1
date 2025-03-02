@@ -33,7 +33,7 @@ nav ul{
     flex-direction: column;
     justify-content: space-evenly;
     background-color: rgb(0, 0, 0);
-    font-size: calc(px + 2vw);
+    font-size: calc(1px + 2vw);
     text-align: center;
     list-style: none;
     padding-left: 0;
@@ -91,12 +91,15 @@ main p{
 }
 
 footer{
+    width: 90%;
     background-color: rgb(0, 0, 0);
     color: rgb(255, 253, 250);
     padding: 1vh 1vw;
     display: flex;
     flex-direction: row;
     justify-content: center;
+    margin: 0 auto;
+
 }
 
 h2{
@@ -147,12 +150,12 @@ label{
 @media screen and (max-width: 900px) {
     
     header{
-        width: 100%;
+        width: 90%;
         align-items: center;
     }
 
     #container{
-        width: 100%;
+        width: 90%;
         height: 100vh;
         flex-direction: column;
     }
